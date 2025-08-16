@@ -1,0 +1,14 @@
+@media(max-width: 767px){
+    .center{
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .about__game{
+        display: flex;
+        flex-direction: column;
+    }
+    .heder__info {
+        width: 343px;
+        height: 371px;
+    }
+}

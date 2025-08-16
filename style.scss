@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    padding-left: calc(50% - 600px); 
+    padding-right: calc(50% - 600px);
+}
+.body{
+   font-family: Montserrat;
+   width: 100%;
+}
+.header{
+    font-family: Montserrat;
+    background-color: #E1FF8F;
+    height: 100%;
+    padding-bottom: 216px;
+    padding-top: 196px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(file:///C:/Users/Ols/Downloads/%D0%A1%D0%BE%D1%87%D0%B5%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%203.svg);
+    background-repeat: no-repeat;
+    background-position: 63px 69px ;
+   
+    
+
+}
+.heder__info{
+    width: 734px;
+    height: 358px;
+}
+.header__hi{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;}
+.header__p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+    
+.header__but{
+    font: inherit;
+     box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    width: 247px;
+    height: 66px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%; 
+    color: #FFFFFF; 
+    
+}
+.header__svg{
+    overflow: hidden;
+    position: absolute;
+    left: 854px;
+    bottom: 87px;
+
+}
+.about{
+    background-color: #202027;
+    font-family: Montserrat;
+    padding-top: 94px;
+    background-image: url(file:///C:/Users/Ols/Downloads/%D0%A1%D0%BE%D1%87%D0%B5%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%205.svg);
+    background-repeat: no-repeat;
+    background-position: 25px 77px ;
+}   
+.about__info{
+    width: 705px;
+}
+.about__h{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    padding-bottom: 24px;
+}
+.about__p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.about__game{
+    display: grid;
+    grid-template-columns: 237px 237px 237px;
+    gap: 32px;
+    justify-content: space-around;
+    align-items: start;
+    justify-items: center;
+    padding-top: 72px;
+    
+}
+.about__img{
+ width: 378px;
+ height: 314px;
+}
+.about__number{
+    color: #202027;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 26px;
+    padding-left: 32px;
+}
+.about__aName{
+    color: #202027;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-decoration: none;
+    display: inline-block;
+}
+.about__top{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+.about__product{
+    border-radius: 30px;
+    background-color:#FFFFFF;
+    padding-bottom: 36px;
+
+}
+
+@import 'tablet';
+@import 'mobile';

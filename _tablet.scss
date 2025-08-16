@@ -1,10 +1,11 @@
-@media(max-width: 1024px) {
+
+@media (min-width: 768px) and (max-width: 1024px) {
     .center{
         padding-left: calc(50% - 786px/2);
         padding-right: calc(50% - 786px/2);
     }
-    .header{
-        background-color: #fff;
+    .body{
+        width: 100%;
     }
-   
+    
 }
