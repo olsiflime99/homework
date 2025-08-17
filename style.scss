@@ -60,7 +60,7 @@
     overflow: hidden;
     position: absolute;
     left: 854px;
-    bottom: 87px;
+    bottom: 287px;
 
 }
 .about{
@@ -130,6 +130,18 @@
     padding-bottom: 36px;
 
 }
+.min-game{
+    background-color: #202027;
+    font-family: Montserrat;
+    padding-top: 94px;
+}
+.footer{
+    width: 1441px;
+    height: 150px;
+    background-color: rgba(189, 237, 53, 1);
+}
+
 
 @import 'tablet';
 @import 'mobile';
+@import 'game';
