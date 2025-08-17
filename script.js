@@ -25,7 +25,7 @@ let b = 2;
 let modyl = (a % b );
 alert = modyl;       
 
-/* Задание 7 */
+/* Задание 7 
 let num = 1;
 num += 5;
 num -= 3;
@@ -33,14 +33,14 @@ num *= 7;
 num /= 3;
 num++;
 num--;
-alert (num);
-/* Задание 8 */
+alert (num);*/
+/* Задание 8 
 let age = prompt('Сколько вам лет?');
-alert (age);
-/* Задание 9 */
+alert (age);*/
+/* Задание 9 
 let name = String("Ник");
 let age2 = Number(17);
-let isAdmin = Boolean (false);
-/* Задание 10 */
+let isAdmin = Boolean (false);*/
+/* Задание 10 
 let YouName = prompt('Как ваше имя?');
-alert(`Привет, ${YouName}`);  
+alert(`Привет, ${YouName}`);  */
