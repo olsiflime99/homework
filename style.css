@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url(file:///C:/Users/Ols/Downloads/%D0%A1%D0%BE%D1%87%D0%B5%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%203.svg);
+  background-image: url(img/starsUp.svg);
   background-repeat: no-repeat;
   background-position: 63px 69px;
 }
@@ -71,7 +71,7 @@
   background-color: #202027;
   font-family: Montserrat;
   padding-top: 94px;
-  background-image: url(file:///C:/Users/Ols/Downloads/%D0%A1%D0%BE%D1%87%D0%B5%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%205.svg);
+  background-image: url(img/StarAbout.svg);
   background-repeat: no-repeat;
   background-position: 25px 77px;
 }
@@ -180,8 +180,9 @@
     flex-direction: column;
   }
   .heder__info {
+    border-color: rgb(224, 139, 26);
+    padding-right: 29px;
     width: 100%;
-    height: 371px;
   }
   .header__svg {
     display: none;
@@ -191,6 +192,9 @@
   }
   .header {
     padding-bottom: 131px;
+    background-image: url(img/starMob.svg);
+    background-repeat: no-repeat;
+    background-position: 37px -115px;
   }
   .header__hi {
     font-size: 40px;
@@ -212,88 +216,4 @@
     font-weight: 600;
     text-align: center;
   }
-}
-.footer {
-  width: 100%;
-  height: 150px;
-  background-color: rgb(189, 237, 53);
-}
-
-.footer__h {
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: 0px;
-  text-align: center;
-  padding-top: 61px;
-}
-
-.min-game {
-  padding-bottom: 144px;
-}
-
-.min__info {
-  padding-bottom: 72px;
-}
-
-.game {
-  display: grid;
-  gap: 32px;
-}
-
-.game__product_A {
-  background-color: #FFFFFF;
-  border-radius: 50px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.game__product_B {
-  background-color: #FFFFFF;
-  border-radius: 50px;
-  display: flex;
-}
-
-.game__info {
-  box-sizing: border-box;
-  width: 600px;
-  padding-top: 48px;
-  padding-left: 48px;
-  padding-right: 48px;
-}
-
-.game__img {
-  width: 600px;
-  height: 500px;
-}
-
-.game__aName {
-  text-decoration: none;
-  color: rgb(32, 32, 39);
-  font-family: Montserrat;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 59px;
-}
-
-.game__gesc {
-  color: rgb(32, 32, 39);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  padding-top: 24px;
-  padding-bottom: 36px;
-}
-
-.game__but {
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 141.69%;
-  text-align: center;
-  border-radius: 60px;
-  background: rgb(32, 32, 39);
-  width: 247px;
-  height: 66px;
 }/*# sourceMappingURL=style.css.map */
