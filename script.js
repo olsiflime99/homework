@@ -1,48 +1,74 @@
-
-/* Задание 1  */ 
-let j = 10;
-alert(j);
-j = alert (20);
-/* Задание 2 */
-let iPhone = 2007;
-alert (iPhone);
-/* Задание 3 */
-let nameJS = 'Брендан Айк'
-alert (nameJS);
-/* Задание 4 */
-let z = 10;
-let x = 2;
-alert (z+x);
-alert (z-x);
-alert (z*x);
-alert (z/x);
-/* Задание 5 */
-let result = 2;
-alert (result**5)
-/* Задание 6 */
-let a = 9;
-let b = 2;
-let modyl = (a % b );
-alert = modyl;       
-
-/* Задание 7 */
-let num = 1;
-num += 5;
-num -= 3;
-num *= 7;
-num /= 3;
-num++;
-num--;
-alert (num);
-/* Задание 8 */
-let age = prompt('Сколько вам лет?');
-alert (age);
-/* Задание 9 */
-const user = {
-    name :'Ник',
-    age : 17,
-    isAdmin : false,
+/* Задание 1 */
+let password = String(prompt('Введите пароль'));
+/*password = password.toLocaleLowerCase;   Почему то не работает */
+switch (password) {
+    case 'пароль':
+    console.log('Пароль введен верно')
+        break;
+    default:
+        console.log('Пароль введен не верно')
+        break;
 }
-/* Задание 10 */
-let YouName = prompt('Как ваше имя?');
-alert(`Привет, ${YouName}`);  
+/* Задание 2 */
+let c = 5;
+if (c>0 && c<10) {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+}
+/* Задание 3 */
+let d = 20;
+let e = 5;
+if (d>100 || e>100) {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+}
+/* Задание 4 */
+let a = '2';
+let b = '3';
+let l = (Number(a) + Number(b));
+alert(l);
+/* Задание 5 */
+let monthNumber = String(prompt('Напиши цифру месяца'));
+switch (monthNumber) {
+    case '1':
+        console.log('Январь');
+        break;
+    case '2':
+        console.log('Февраль');
+        break;
+    case '3':
+        console.log('Март');
+        break;
+    case '4':
+        console.log('Апрель');
+        break;
+    case '5':
+        console.log('Май');
+        break;
+    case '6':
+        console.log('Июнь');
+        break;
+    case '7':
+        console.log('Июль');
+        break;
+    case '8':
+        console.log('Август');
+        break;
+    case '9':
+        console.log('Сентябрь');
+        break;
+    case '10':
+        console.log('Октябрь');
+        break;
+    case '11':
+        console.log('Ноябрь');
+        break;
+    case '12':
+        console.log('Декабрь');
+        break;
+    default:
+        console.log('Такого месяца нет');
+        break;
+}
